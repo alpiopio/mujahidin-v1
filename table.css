@@ -1,0 +1,90 @@
+#table{
+  width : 970px;
+	margin : auto;
+}
+#header_box{
+	background: #333;
+	height : 25px;
+	margin : auto;
+	text-align : center;
+	text-transform : uppercase;
+	color : #ffffff;
+	padding : 5px 0px 0px 0px;
+	font-size : 15px;
+	font-family: 'PT Sans',Arial,Helvetica,sans-serif;
+	
+	border-bottom : 5px solid #00aec8;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+table{
+	border-collapse:collapse;
+	width : 970px;
+	border-right : 1px solid #999999;
+	border-left : 1px solid #999999;
+	font-size : 13px;
+	font-family: 'PT Sans',Arial,Helvetica,sans-serif;
+}
+#footer_box{
+	height : 15px;
+	margin : auto;
+
+	
+	border-bottom : 1px solid #999999;
+	border-left : 1px solid #999999;
+	border-right : 1px solid #999999;
+	
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+th{
+	background: #ffffff;
+	background: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#ffffff),color-stop(100%,#e5e5e5));
+	background: -webkit-linear-gradient(#ffffff,#e5e5e5);
+	background: -moz-linear-gradient(#ffffff,#e5e5e5);
+	background: -o-linear-gradient(#ffffff,#e5e5e5);
+	background: linear-gradient(#ffffff,#e5e5e5);
+	
+	color : #333;
+	text-transform : uppercase;
+	height : 25px;
+	font-family: 'PT Sans Bold',Arial,Helvetica,sans-serif;
+	font-weight : normal;
+	
+	border-bottom : 1px solid #999999;
+	text-align : left;
+	padding : 0px 10px;
+}
+
+td{
+	vertical-align: top;
+	padding : 5px 10px;
+	text-align : left;
+	color : #777777;
+}
+tr{
+	border-bottom : 1px dotted #e5e5e5;
+}
+tr:hover{
+	background : #f7f7f7;
+}
+.delete{
+	display : block;
+	width :15px;
+	height :15px;
+	background : url(delete.png)no-repeat top left;
+	border : none;
+	cursor:pointer;
+}
+.delete:hover{
+	background-position: 0px -16px;
+}
