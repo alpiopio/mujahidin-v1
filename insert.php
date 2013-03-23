@@ -1,6 +1,6 @@
 <?php
 class insert{
-  public
+	public
 		$table,
 		$data = array();
 	public function __construct ($table,$data = null){
@@ -55,7 +55,7 @@ for ($f=0; $f < $fields; $f++) {//berulang sejumlah fieldnya
 	$field = mysql_field_name($result, $f);//cetak field yang ada dengan offsetnya
 	$data[] = $_POST[$field];
 }
-/*------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------eksekusi perintah---------------------------------------------*/
 $insert = new insert($_POST['table'],$data);
 $insert->insert_execution();
 ?>
